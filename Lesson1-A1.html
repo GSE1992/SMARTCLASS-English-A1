@@ -317,6 +317,7 @@
     <div class="main-wrapper">
         <aside class="sidebar" id="lessonSidebar">
             <div class="sidebar-header-info">
+                <!-- EDITABLE: Título de la lección en la barra lateral -->
                 <h1 class="lesson-title-sidebar">Lección 2 – Conexiones Reales</h1>
                 <div class="progress-bar-wrapper">
                     <div class="progress-bar-container-sidebar">
@@ -329,7 +330,8 @@
                 <h3><span class="icon" style="font-size: 1em;">📖</span> Contenido</h3>
                 <nav>
                     <ul id="lessonSectionsMenu">
-                        </ul>
+                        <!-- Generado por JS -->
+                    </ul>
                 </nav>
             </div>
         </aside>
@@ -337,12 +339,17 @@
 
         <main class="content-area" id="contentArea">
             <p style="font-size: 1.2em; text-align: center; color: var(--texto-secundario); margin-bottom: 30px; font-weight: 500;">
+                <!-- EDITABLE: Párrafo de bienvenida -->
                 ¡Hola, creador/a de conexiones! 👋 En esta lección, vamos a aprender a hacer preguntas y a compartir información personal para conocer gente de verdad. ¡Prepárate para romper el hielo! 🧊🔥
             </p>
 
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 1: ESCUCHA CLAVE (Replicado de Lección 1)          -->
+            <!-- ================================================================= -->
             <section id="section-step1" class="lesson-step" data-step-id="step1" data-title="Escucha Clave" data-icon="🎧" style="animation-delay: 0.1s;">
                 <h2><span class="icon">🎧</span> Melodías de Conexión (Escucha Atenta)</h2>
                 <p>Escucha con atención cómo suenan estas preguntas y respuestas. Son la base para conocer a alguien. ¡Haz clic en cada palabra para escucharla por separado!</p>
+                <!-- EDITABLE: Contenido de escucha clave -->
                 <div class="phrase-block">
                     <p class="phrase-text speakable">
                         <span class="highlight" onclick="speakWord('Are', 'en-US', this)">Are</span> 
@@ -374,10 +381,14 @@
                 <button class="mark-completed-btn" id="completeStep1Btn" onclick="markStepCompleted('step1', this)"><span class="icon">✔️</span> Completé Escucha</button>
             </section>
 
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 2: GRAMÁTICA ESENCIAL (Adaptado para Lección 2)     -->
+            <!-- ================================================================= -->
             <section id="section-grammar" class="lesson-step" data-step-id="grammar" data-title="Gramática Clave" data-icon="📖" style="animation-delay: 0.2s;">
                 <h2><span class="icon">📖</span> Gramática Esencial: Preguntas y Negaciones</h2>
                 <p>Para conocer gente, ¡hay que saber preguntar y negar! Aquí te mostramos cómo usar el verbo <strong>"to be"</strong> para hacer preguntas (forma interrogativa) y para decir que algo no es cierto (forma negativa).</p>
                 
+                <!-- EDITABLE: Contenido de gramática -->
                 <div class="grammar-explanation">
                     <p><strong>Forma Interrogativa (¡A Preguntar!):</strong> Para hacer una pregunta, simplemente cambiamos el orden. ¡El verbo "to be" va primero!</p>
                     <div class="grammar-table-container">
@@ -430,20 +441,30 @@
                 <button class="mark-completed-btn" id="completeGrammarBtn" onclick="markStepCompleted('grammar', this)"><span class="icon">✔️</span> Entendí la Gramática</button>
             </section>
 
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 3: VOCABULARIO (Adaptado para Lección 2)           -->
+            <!-- ================================================================= -->
             <section id="section-vocabWords" class="lesson-step" data-step-id="vocabWords" data-title="Palabras de Contacto" data-icon="🗣️" style="animation-delay: 0.3s;">
                 <h2><span class="icon">🗣️</span> Vocabulario: Identidad y Contacto</h2>
                 <p>Estas palabras son esenciales para compartir quién eres y cómo contactarte. ¡Escúchalas, repítelas y hazlas tuyas!</p>
+                <!-- INICIO VOCABULARIO -->
                 <div id="lessonWordsContainer">
-                    </div>
+                    <!-- Las palabras se generarán con JS -->
+                </div>
+                <!-- FIN VOCABULARIO -->
                 <div class="living-english-tip">
                      <span class="icon">💬</span><strong>Living English:</strong> <span class="speakable">In many English-speaking countries, it's common to have a "middle name", but it is not always used. The "last name" is also called "surname" or "family name".</span>
                 </div>
                 <button class="mark-completed-btn" id="completeVocabWordsBtn" onclick="markStepCompleted('vocabWords', this)"><span class="icon">✔️</span> Repasé Palabras Nuevas</button>
             </section>
             
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 4: PRÁCTICA ORAL (Adaptado para Lección 2)          -->
+            <!-- ================================================================= -->
             <section id="section-step2" class="lesson-step" data-step-id="step2" data-title="¡Tu Voz en Acción!" data-icon="🎤" style="animation-delay: 0.4s;">
                 <h2><span class="icon">🎤</span> ¡Tu Voz en Acción! (Repite y Responde)</h2>
                 <p>¡Es tu turno de hablar! Graba tu voz haciendo preguntas y dando respuestas cortas. Intenta sonar claro y seguro. (Recuerda permitir el uso del micrófono 😉).</p>
+                <!-- EDITABLE: Contenido de práctica oral -->
                 <div class="phrase-block">
                     <p class="phrase-text speakable">Is she Mexican? Yes, she is.</p>
                     <button class="record-btn" onclick="startRecognition('recordFeedback1', this)"><span class="icon">🎤</span> Grabar Ahora</button>
@@ -459,9 +480,13 @@
                 <button class="mark-completed-btn" id="completeStep2Btn" onclick="markStepCompleted('step2', this)"><span class="icon">✔️</span> Completé Práctica Oral</button>
             </section>
 
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 5: LECTURA (Adaptado para Lección 2)               -->
+            <!-- ================================================================= -->
             <section id="section-readingComprehension" class="lesson-step" data-step-id="readingComprehension" data-title="Lectura: Jennifer" data-icon="🧐" style="animation-delay: 0.5s;">
                 <h2><span class="icon">🧐</span> Lectura y Comprensión: La Historia de Jennifer</h2>
                 <p>Lee este texto sobre Jennifer. Presta atención a las <span class="highlight-negative">frases negativas</span> y a la <span class="highlight-location">información de ubicación</span>. Luego, responde las preguntas.</p>
+                <!-- EDITABLE: Contenido de lectura -->
                 <div class="reading-text-block" id="jenniferStory"></div>
                 <div id="jenniferQuizContainer"></div>
                 <button onclick="submitJenniferQuiz()"><span class="icon">✍️</span> Revisar Respuestas</button>
@@ -469,9 +494,13 @@
                 <button class="mark-completed-btn" id="completeReadingBtn" onclick="markStepCompleted('readingComprehension', this)"><span class="icon">✔️</span> Entendí la Historia</button>
             </section>
             
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 6: ESCRITURA (Adaptado para Lección 2)             -->
+            <!-- ================================================================= -->
             <section id="section-writingForm" class="lesson-step" data-step-id="writingForm_auto" data-title="Tu Ficha Personal" data-icon="📝" style="animation-delay: 0.6s;">
                 <h2><span class="icon">📝</span> Tu Ficha Personal (Escritura)</h2>
                 <p>¡Es hora de crear tu propia "tarjeta de presentación"! Completa el siguiente formulario con tu información. ¡Esto es súper útil para practicar!</p>
+                <!-- EDITABLE: Contenido de escritura -->
                 <form id="writingForm" onsubmit="event.preventDefault(); checkWritingForm();">
                     <div class="form-row">
                         <div class="form-group">
@@ -511,17 +540,26 @@
                 <div id="writingFeedback" class="feedback" style="display:none;"></div>
             </section>
 
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 7: MINI TEST (Adaptado para Lección 2)             -->
+            <!-- ================================================================= -->
             <section id="section-step4Quiz" class="lesson-step" data-step-id="step4Quiz_auto" data-title="Mini Test General" data-icon="🎯" style="animation-delay: 0.7s;">
                 <h2><span class="icon">🎯</span> Desafío de Conocimiento (Mini Test General)</h2>
                 <p>Demuestra lo que has aprendido en toda la lección. Elige la opción correcta y ¡conviértete en un maestro de las conexiones!</p>
+                <!-- INICIO QUIZ -->
                 <div id="quizContainer"></div>
+                <!-- FIN QUIZ -->
                 <button onclick="submitQuiz()"><span class="icon">🏆</span> ¡Revisar Mis Genialidades!</button>
                 <div id="quizFeedback" class="feedback" style="display:none;"></div>
             </section>
 
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 8: PRÁCTICA AUDITIVA (Adaptado para Lección 2)     -->
+            <!-- ================================================================= -->
             <section id="section-listeningPractice" class="lesson-step listening-exercise" data-step-id="listeningPractice" data-title="Práctica Auditiva" data-icon="👂" style="animation-delay: 0.8s;">
                 <h2><span class="icon">👂</span> Práctica de Escucha: Llenando los Vacíos</h2>
                 <p>Agudiza el oído. Escucha estos diálogos y luego completa los espacios en blanco. ¡Descifra las conversaciones!</p>
+                <!-- EDITABLE: Contenido de práctica auditiva -->
                 <div class="conversation" id="convo1">
                     <p><span class="speaker">A:</span> Is she Mexican?</p>
                     <p><span class="speaker">B:</span> No, she isn't. She is from Brazil.</p>
@@ -546,9 +584,13 @@
                 <button class="mark-completed-btn" id="completeListeningPracticeBtn" onclick="markStepCompleted('listeningPractice', this)"><span class="icon">✔️</span> Completé Desafío Auditivo</button>
             </section>
             
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 9: CHAT CON IA (Adaptado para Lección 2)           -->
+            <!-- ================================================================= -->
             <section id="section-aiChat" class="lesson-step ai-interaction" data-step-id="aiChat" data-title="Charla con Sparky" data-icon="🤖" style="animation-delay: 0.9s;">
                 <h2><span class="icon">🤖</span> Charla con Sparky: ¡A Conectar!</h2>
                 <p>¡Es hora de practicar con un amigo IA! Pregúntale a "Sparky" de dónde es o preséntate tú. ¡Te responderá en inglés y podrás tener una conversación real!</p>
+                <!-- EDITABLE: Contenido de Charla con IA -->
                 <textarea id="aiUserInput" placeholder="Escribe aquí en inglés... Ej: Hi Sparky! Are you from the USA? I'm from Venezuela."></textarea>
                  <div class="living-english-tip">
                     <span class="icon">💡</span><strong>Living English:</strong> <span class="speakable">You can start a conversation in many ways. Try with: "Hi! Are you from around here?" or "Excuse me, are you the new manager?". Be brave and creative!</span>
@@ -558,9 +600,13 @@
                  <button class="mark-completed-btn" id="completeAIChatBtn" onclick="markStepCompleted('aiChat', this)"><span class="icon">✔️</span> Completé Charla IA</button>
             </section>
 
+            <!-- ================================================================= -->
+            <!-- INICIO SECCIÓN 10: RESUMEN (Adaptado para Lección 2)              -->
+            <!-- ================================================================= -->
             <section id="section-summaryTips" class="lesson-step" data-step-id="summary" data-title="Resumen y Tips" data-icon="🌟" style="animation-delay: 1s;">
                 <h2><span class="icon">🌟</span> Resumen y Siguientes Pasos</h2>
                 <p>¡Felicidades por completar esta misión de conexiones! Has aprendido herramientas súper poderosas. Repasemos lo más importante:</p>
+                <!-- EDITABLE: Contenido del resumen -->
                 <ul>
                     <li class="speakable"><strong>Hacer Preguntas:</strong> Invierte el orden: "<strong>Are you</strong> a student?", "<strong>Is she</strong> from Mexico?".</li>
                     <li class="speakable"><strong>Decir que No:</strong> Usa "not" después del verbo: "I<strong>'m not</strong>", "She <strong>isn't</strong>", "They <strong>aren't</strong>".</li>
